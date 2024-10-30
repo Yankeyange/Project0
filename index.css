@@ -1,0 +1,30 @@
+.google {
+  text-align: center;
+}
+
+.google > h1 {
+  font-size: 80px;
+}
+
+.both {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+.text {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 50%;
+  font-size: 25px;
+}
+
+.search {
+  right: 10px;
+}
+
+.search-container {
+   position: relative; 
+   align-items: center; 
+  }
