@@ -28,3 +28,20 @@
    position: relative; 
    align-items: center; 
   }
+
+  header {
+    text-align: right;
+    
+  }
+
+.nav a {
+  margin-right: 10px;
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: blue;
+}
