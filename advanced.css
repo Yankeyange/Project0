@@ -26,3 +26,31 @@ input{
 .to {
   text-align: center;
 }
+
+.button {
+
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.button :hover {
+  background-color: blue;
+}
+
+.advanced-container  input {
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+
+}
+
+.advanced-container  :hover {
+  background-color: blue;
+}
+
+h1 a {
+  text-decoration: none;
+}

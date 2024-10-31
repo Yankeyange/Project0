@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="advanced.css">
 </head>
 <body>
+  <h1><a href="index.html"> Google</a> </h1>
   <header>
     <div class="q">
 <p>Advanced Search</p>
@@ -14,12 +15,13 @@
   </header>
   <hr>
   
-  <form action="https://www.google.com/advanced_search">
+  <form action="https://google.com/search" method="get">
+
 
     <p>Find pages with...</p>
 
     <label for="text">all these words: </label>
-    <input type="text"> 
+    <input type="text" name="q" class="text"> 
 
     <label for="text">this exact word or phrase: </label>
     <input type="text"> 
@@ -32,61 +34,11 @@
     <label for="numbers"><div class="to"> to</div> </label>
     <input type="numbers">
 
-    <hr>
-    <p>Then narrow your <br>
-    results by... </p>
-
-    <label for="language">language:</label>
     
-    <select id="pet-select">
-      <option value="">--any language--</option>
-      <option value="french">French</option>
-      <option value="English">English</option>
-      <option value="Germany">Germany</option>
-      <option value="Hindi">Hindi</option>
-      <option value="Spanish">Spanish</option>
-      <option value="Russian">Russian</option>
-    </select>
+   <div class="advanced-container">
+    <input type="submit" value="Advanced Search">
+  </div>
 
-    <label for="region">region:</label>
-    <label for="region">
-      <select id="pet-region">
-        <option value="">--any region--</option>
-        <option value="Belgium">Belgium</option>
-        <option value="canada">Canada</option>
-        <option value="ivoire">Côte D'ivoire</option>
-        <option value="france">France</option>
-        <option value="monaco">Monaco</option>
-        <option value="afghanistan">Afghanistan</option>
-      </select>
-
-
-    </label>
-    
-    <label for="season">last update:</label>
-    <label for="season">
-      <select id="pet-season">
-        <option value="">--anytime--</option>
-        <option value="hours">past 24 hours</option>
-        <option value="years">past week</option>
-        <option value="months">past month</option>
-        <option value="weeks">past year</option>
-        
-      </select>
-
-      <label for="text">site or domain:</label>
-      <input type="text">
-
-      <label for="appear">terms appearing:</label>
-    <label for="appear">
-      <select id="pet-appear">
-        <option value="">--anywhere in the page--</option>
-        <option value="hours">in the title in the page</option>
-        <option value="years">past week</option>
-        <option value="months">past month</option>
-        <option value="weeks">past year</option>
-        
-      </select>
   </form>
 </body>
 </html>
